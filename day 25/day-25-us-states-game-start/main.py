@@ -37,9 +37,10 @@ while answerCount < 50:
         answers.goto(loc_x, loc_y)
         answers.write(answer)
 missingState = []
-for state in stateList:
-    if state not in answerList:
-        missingState.append(state)
+missingState = [state for state in stateList if state not in answerList]
+# for state in stateList:
+#     if state not in answerList:
+#         missingState.append(state)
 df = pd.DataFrame(missingState)
 df.to_csv("day 25\\day-25-us-states-game-start\\missingstates.csv")
 screen.exitonclick()
