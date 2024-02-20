@@ -1,8 +1,5 @@
 # ------------------------basic smtp mail code ----------------------#
 # import smtplib
-# email = "zurajanai737@gmail.com"
-# app_password = "mmbtyuonbhloepqv"
-# receiver = "sivabalasingh97@gmail.com"
 # with smtplib.SMTP("smtp.gmail.com") as connection:
 #     connection.starttls()
 #     connection.login(user=email, password=app_password)
