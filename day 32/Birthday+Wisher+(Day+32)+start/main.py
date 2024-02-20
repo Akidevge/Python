@@ -18,9 +18,9 @@ if weekday == 1:
     with open("day 32/Birthday+Wisher+(Day+32)+start/quotes.txt") as file:
         Allquote = file.readlines()
         quote = random.choice(Allquote)
-        email = "zurajanai737@gmail.com"
-        app_password = "mmbtyuonbhloepqv"
-        receiver = "sivabalasingh97@gmail.com"
+        email = "xxxx@gmail.com"
+        app_password = "xxxxxx"
+        receiver = "xxxxxx@gmail.com"
         with smtplib.SMTP("smtp.gmail.com") as connection:
             connection.starttls()
             connection.login(user=email, password=app_password)
